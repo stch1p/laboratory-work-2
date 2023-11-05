@@ -9,5 +9,4 @@ while remaining_money > 0 :
     spend = spend + spend * increase
     remaining_money = remaining_money + salary - spend
     count += 1
-
 print("Количество месяцев, которое можно протянуть без долгов:", count)
